@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Undangan Online</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- NAVIGASI BAR -->
+    <nav class="navbar">
+      <div class="navbar_wrapper">
+        <h1 class="brand">Suroso & Eni</h1>
+
+        <menu class="navbar_menu">
+          <a href="#akad">Akad</a>
+          <a href="#resepsi">resepsi</a>
+          <a href="#buku_tamu">buku tamu</a>
+          <a href="#map">map</a>
+        </menu>
+      </div>
+    </nav>
+    <!-- END NAVIGASI BAR -->
+
+    <main class="container">
+      <!-- HERO -->
+      <div class="hero">
+        <p>Pernikahan</p>
+        <h1>Surosos & Eni</h1>
+        <p>Surakarta, 32 Agustus 2022</p>
+      </div>
+      <!-- END HERO -->
+
+      <!-- AKAD -->
+      <section id="akad">
+        <h1 class="section_title">Akad Nikah</h1>
+        <div class="section_wrapper">
+          <div class="section_content">
+            <h2>Surakarta, 32 Agustus 2022</h2>
+            <p>Jl.Iskandar muda V no 47 rowopanggang, Jebres</p>
+            <h2>08.30 WIB</h2>
+          </div>
+          <div class="section_image"></div>
+        </div>
+      </section>
+      <!-- END AKAD -->
+
+      <!-- RESEPSI -->
+      <section id="resepsi">
+        <h1 class="section_title">Resepsi</h1>
+        <div class="section_wrapper">
+          <div class="section_image"></div>
+          <div class="section_content">
+            <h2>Surakarta, 32 Agustus 2022</h2>
+            <p>Jl.Iskandar muda V no 47 rowopanggang, Jebres</p>
+            <h2>12.30 - 17.30 WIB</h2>
+          </div>
+        </div>
+      </section>
+      <!-- END RESEPSI -->
+
+      <!-- BUKU TAMU -->
+      <section id="buku_tamu">
+        <h1 class="section_title">Buku Tamu</h1>
+        <div class="form_wrapper">
+          <form class="form_buku_tamu" autocomplete="off">
+            <div class="form_group">
+              <label for="fullname">Nama Lengkap</label>
+              <input type="text" id="fullname" />
+            </div>
+
+            <div class="form_group">
+              <label for="phone">Nomor Telephone</label>
+              <input type="tel" id="phone" />
+            </div>
+
+            <div class="form_group">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+
+            <div class="form_group">
+              <label for="address">Alamat</label>
+              <input type="address" id="address" />
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <!--END BUKU TAMU -->
+
+      <!-- MAP -->
+
+      <section id="map">
+        <h1 class="section_title">Peta Resepsi</h1>
+        <div class="section_wrapper">
+          <div class="section_content">
+            <button class="btn_map">
+              <span class="material-symbols-outlined"> location_on </span>
+              Dapatkn Lokasi
+            </button>
+            <button class="btn_map">
+              <span class="material-symbols-outlined"> calendar_month </span>
+              Save ke Kalender
+            </button>
+            <button class="btn_map">
+              <span class="material-symbols-outlined"> share </span>
+              Share ke Instagram
+            </button>
+          </div>
+          <!-- IFRAME MAP -->
+          <div class="section_map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.0919621233384!2d106.7680602!3d-6.3821306999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edbeb519bf51%3A0x6d828d2767b5f00c!2sjvalley%20jemblongan!5e0!3m2!1sid!2sid!4v1661047756116!5m2!1sid!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <!-- END IFRAME MAP -->
+        </div>
+      </section>
+
+      <!-- END MAP -->
+
+      <!-- GALERY -->
+      <section id="galery">
+        <h1 class="section_title">Galery</h1>
+        <div class="section_wrapper">
+          <div class="galery_list">
+            <img
+              src="https://images.pexels.com/photos/758898/pexels-photo-758898.png?auto=compress&cs=tinysrgb&w=400"
+              alt="galery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=500"
+              alt="galery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="galery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="galery pertama"
+            />
+          </div>
+
+          <div class="galery_list">
+            <img
+              src="https://images.pexels.com/photos/157757/wedding-dresses-fashion-character-bride-157757.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="galery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="galery pertama"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- END GALERY -->
+    </main>
+
+    <footer>
+      <p>Design By :</p>
+      <h2>Fakhri Azra Shafara</h2>
+      <p>089690736575</p>
+    </footer>
+  </body>
+</html>
